@@ -1,0 +1,22 @@
+{
+  "name": "test10",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "app.js",
+  "watch": {
+    "start": "./*.js"
+  },
+  "scripts": {
+    "start": "node app",
+    "watch": "npm-watch"
+  },
+  "author": "SIVER",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "npm-watch": "^0.6.0",
+    "squel": "^5.12.2"
+  }
+}
